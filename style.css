@@ -11,14 +11,30 @@ body{
     margin: 0 auto;
     min-height: 640px;
     background-image: url('afb/ang.png');
-    padding-top: 100px;
+    background-repeat: no-repeat;
 }
 .element{
     background-color: rgba(255, 0, 0, 0.8);
-    width: 200px;
+    width: 150px;
+    cursor: pointer;
+}
+.element .naam{
+    /*opacity: 0;*/
+}
+.element:hover .naam{
+    opacity: 1;
 }
 #Air{
-    margin-left: 10px;
+    margin-left: 0px;
+    padding-top: 265px;
+    padding-left: 165px;
+}
+
+#Air .naam{
+    margin-left: 25px;
+}
+#Earth{
+    margin-left: 323px;
 }
 h3, p{
     margin: 0;
